@@ -1,0 +1,67 @@
+Día 1. Creé el directorio GIT en C:\0 2023 Node Js\GIT y luego creé este archivo aprendiendoGitHub.txt
+	Lo dejé vacío y debo haber trabajado porque al escribir git tag apareció lo siguiente:
+v0.0.1
+	Y al escribir git show v0.0.1
+Tagger: ricardo <solimovil04@gmail.com>
+Date:   Fri May 5 10:43:10 2023 -0300
+
+Primera versión
+
+commit d6f32052bf7d6d799f13227737d8e01936f2b68f (tag: v0.0.1)
+Author: ricardo <solimovil04@gmail.com>
+Date:   Fri May 5 10:40:05 2023 -0300
+
+    1er paso de GIT23
+
+diff --git a/aprendiendoGitHub.txt b/aprendiendoGitHub.txt
+new file mode 100644
+index 0000000..e69de29
+
+
+
+
+
+
+Antes que nada, inmediatamente después de instalar Git, lo primero que deberías hacer es lanzar un par de comandos de configuración.
+git config global user.name "Tu nombre aquí"
+git config global user.email "tu_email_aquí@example.com"
+
+1. git init
+2. git add aprendiendoGitHub
+3. git status
+4. git commit -m "Estoy trabajando para aprender GitHub. Parte 1"
+5. git status
+6. CAMBIO ESTE archivo y lo GUARDO
+7.$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   aprendiendoGitHub.txt
+8.git tag v0.0.2 -m "Primera aproximación"
+9.  git show v0.0.2
+Tagger: ricardo <solimovil04@gmail.com>
+Date:   Sat May 6 23:05:32 2023 -0300
+
+Primera aproximación
+
+commit eb36beb8f4b40c417e1e9bdc32e069c31a599363 (HEAD -> master, tag: v0.0.2)
+Author: ricardo <solimovil04@gmail.com>
+Date:   Sat May 6 23:04:24 2023 -0300
+
+    Estoy trabajando para aprender GitHub. Parte 2
+
+diff --git a/aprendiendoGitHub.txt b/aprendiendoGitHub.txt
+index e69de29..77f43c5 100644
+--- a/aprendiendoGitHub.txt
++++ b/aprendiendoGitHub.txt
+@@ -0,0 +1,18 @@
++Antes que nada, inmediatamente después de instalar Git, lo primero que deberías hacer es lanzar un par de comandos de configuración.
++git config global user.name "Tu nombre aquí"
++git config global user.email "tu_email_aquí@example.com"
++
++1. git init
+:
+
+10. PARA VINCULAR EL REPOSITORIO LOCAL con el REMOTO (podría crear un New pero elegí uno anterior)
+git remote add origin https://github.com/RicardMarcelo/practicaGit2022
