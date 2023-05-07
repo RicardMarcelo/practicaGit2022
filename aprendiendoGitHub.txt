@@ -65,3 +65,8 @@ index e69de29..77f43c5 100644
 
 10. PARA VINCULAR EL REPOSITORIO LOCAL con el REMOTO (podría crear un New pero elegí uno anterior)
 git remote add origin https://github.com/RicardMarcelo/practicaGit2022
+11. git push origin master NO FUNCIONÓ.
+	Tuve que clonar el repositorio: git clone https://github.com/RicardMarcelo/practicaGit2022.git
+	Y se creó una nueva carpeta.
+12. Cambié a esa carpeta y guardé este archivo
+
