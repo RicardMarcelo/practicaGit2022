@@ -68,5 +68,30 @@ git remote add origin https://github.com/RicardMarcelo/practicaGit2022
 11. git push origin master NO FUNCIONÓ.
 	Tuve que clonar el repositorio: git clone https://github.com/RicardMarcelo/practicaGit2022.git
 	Y se creó una nueva carpeta.
-12. Cambié a esa carpeta y guardé este archivo
+12. Cambié a esa carpeta y guardé este archivo.
+C:\0 2023 Node Js\GIT\practicaGit2022>git add .
+
+C:\0 2023 Node Js\GIT\practicaGit2022>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   aprendiendoGitHub.txt
+
+
+C:\0 2023 Node Js\GIT\practicaGit2022>git commit aprendiendoGitHub.txt -m "Buscando la solución"
+[master 4937a47] Buscando la solución
+ 1 file changed, 5 insertions(+)
+
+C:\0 2023 Node Js\GIT\practicaGit2022>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 480 bytes | 480.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/RicardMarcelo/practicaGit2022.git
+   f99820f..4937a47  master -> master.
 
